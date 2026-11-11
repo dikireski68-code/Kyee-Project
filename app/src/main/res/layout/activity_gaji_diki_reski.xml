@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F0F4F8"
+    tools:context=".GajiActivityDikiReski">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_container_border"
+            android:elevation="4dp"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+
+            <TextView
+                android:id="@+id/tvTitleGaji"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:text="GAJI KARYAWAN"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/etNik"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/bg_input"
+                android:hint="Nomor Induk Karyawan"
+                android:inputType="text"
+                android:paddingHorizontal="12dp"
+                android:textColor="#000000"
+                android:textColorHint="#757575"
+                android:textSize="14sp" />
+
+
+            <EditText
+                android:id="@+id/etNama"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/bg_input"
+                android:hint="Nama Karyawan"
+                android:inputType="textPersonName"
+                android:paddingHorizontal="12dp"
+                android:textColor="#000000"
+                android:textColorHint="#757575"
+                android:textSize="14sp" />
+
+
+            <EditText
+                android:id="@+id/etGajiPokok"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/bg_input"
+                android:hint="Gaji Pokok"
+                android:inputType="numberDecimal"
+                android:paddingHorizontal="12dp"
+                android:textColor="#000000"
+                android:textColorHint="#757575"
+                android:textSize="14sp" />
+
+
+            <EditText
+                android:id="@+id/etTunjanganJabatan"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/bg_input"
+                android:hint="Tunjangan Jabatan"
+                android:inputType="numberDecimal"
+                android:paddingHorizontal="12dp"
+                android:textColor="#000000"
+                android:textColorHint="#757575"
+                android:textSize="14sp" />
+
+
+            <EditText
+                android:id="@+id/etJumlahHariKerja"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/bg_input"
+                android:hint="Jumlah Hari Kerja"
+                android:inputType="number"
+                android:paddingHorizontal="12dp"
+                android:textColor="#000000"
+                android:textColorHint="#757575"
+                android:textSize="14sp" />
+
+
+            <Button
+                android:id="@+id/btnHitung"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/bg_button_blue"
+                android:text="HITUNG"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/etTunjanganMakan"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/bg_input"
+                android:focusable="false"
+                android:hint="Tunjangan Makan"
+                android:paddingHorizontal="12dp"
+                android:textColor="#000000"
+                android:textColorHint="#757575"
+                android:textSize="14sp" />
+
+
+            <EditText
+                android:id="@+id/etTunjanganTransportasi"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/bg_input"
+                android:focusable="false"
+                android:hint="Tunjangan Transportasi"
+                android:paddingHorizontal="12dp"
+                android:textColor="#000000"
+                android:textColorHint="#757575"
+                android:textSize="14sp" />
+
+
+            <EditText
+                android:id="@+id/etGajiKotor"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/bg_input"
+                android:focusable="false"
+                android:hint="Gaji Kotor"
+                android:paddingHorizontal="12dp"
+                android:textColor="#000000"
+                android:textColorHint="#757575"
+                android:textSize="14sp" />
+
+
+            <EditText
+                android:id="@+id/etGajiBersih"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/bg_input"
+                android:focusable="false"
+                android:hint="Gaji Bersih"
+                android:paddingHorizontal="12dp"
+                android:textColor="#000000"
+                android:textColorHint="#757575"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

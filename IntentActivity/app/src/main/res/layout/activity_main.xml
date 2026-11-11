@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <TextView
+       android:id="@+id/tvDashboar"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="MAIN DASHBOAR"
+       android:gravity="center_horizontal"
+       android:textSize="18dp"
+       android:textColor="#9C27B0"/>
+
+   <Button
+       android:id="@+id/btProfil"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="PROFIL"
+       android:layout_marginTop="16dp"/>
+
+   <Button
+       android:id="@+id/btTentang"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="TENTANG KAMI"/>
+
+   <Button
+        android:id="@+id/btHubungikami"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="HUBUNGI KAMI"/>
+
+
+</LinearLayout>
